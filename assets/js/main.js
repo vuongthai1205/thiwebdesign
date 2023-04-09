@@ -65,11 +65,6 @@ function displayNote(){
               <span>Created at 09/04/2023, 08:47:05 by Vương Thái Gia</span>
               <span class="comment-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae rerum quisquam culpa dicta suscipit dolorem obcaecati exercitationem adipisci numquam molestias eligendi officia saepe reiciendis commodi corrupti, totam placeat quaerat omnis!</span>
           </div>
-          <div class="item-note-comment">
-
-              <span>Created at 09/04/2023, 08:47:05 by Vương Thái Gia</span>
-              <span class="comment-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae rerum quisquam culpa dicta suscipit dolorem obcaecati exercitationem adipisci numquam molestias eligendi officia saepe reiciendis commodi corrupti, totam placeat quaerat omnis!</span>
-          </div>
       </div>
   </div>
       `
