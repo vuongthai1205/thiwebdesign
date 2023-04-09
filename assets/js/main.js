@@ -15,7 +15,7 @@ function createNote(){
       item.listnote.push(currentNote)
     })
     localStorage.setItem('users', JSON.stringify(storedUsers));
-  window.location.href = '/';
+  window.location.href = './';
 
   }
 
