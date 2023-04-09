@@ -1,3 +1,4 @@
+
 function createNote(){
   let input_create_title = document.querySelector('.note-content-create-wrapper .note-content-create .input-title');
   let input_create_des = document.querySelector('.note-content-create-wrapper textarea');
@@ -118,9 +119,11 @@ if (currentUser) {
   // Display username on home page
   const usernameElement = document.querySelector('.name-user span');
   usernameElement.textContent = currentUser.username;
+  document.querySelector('.wrapper').style.display = "block"
+  document.querySelector('.let_signup').style.display = "none"
 }
 
-if (currentUser == null){
+if (currentUser == null || currentUser == undefined){
   alert('vui lòng đăng ký nếu chưa có tài khoản')
   window.location.href = 'signup.html';
 
